@@ -37,7 +37,7 @@ class Twitter extends Component {
         console.log('render', posts)
         return(
             <div>
-                tests
+                teste
             </div>
         )
     }
