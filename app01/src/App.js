@@ -1,11 +1,19 @@
 import React from "react";
+import Logo from './componentes/imgs/LOGO.png';
+
 
 export default function App(){
+  const canal = () => {
+    return('CFB Cursos')
+  }
+  const curso = 'Curso de React';
   return(
     <>
-    <p>Cfb Cursos</p>
+    <p>{'Canal: '+ canal()}</p>
     <br/>
-    <p>Curso de React</p>
+    <p>{curso}</p>
+    <img src={Logo}/>
+    <img src='/img/muque.jpg'/>
     </>
   )
 }
